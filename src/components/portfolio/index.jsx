@@ -14,6 +14,10 @@ const projectsData = [
         media: {
             thumbnail: require("../../images/portfolio/zs-shop.png"),
         },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/E-commerce",
+            demo: "https://zs-shop.netlify.app/",
+        },
     },
     {
         id: 2,
@@ -21,6 +25,10 @@ const projectsData = [
         tags: ["react"],
         media: {
             thumbnail: require("../../images/portfolio/youtube.png"),
+        },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/YouTube-clone",
+            demo: "https://youtube-main.netlify.app/",
         },
     },
     {
@@ -30,6 +38,10 @@ const projectsData = [
         media: {
             thumbnail: require("../../images/portfolio/newsapp.jpeg"),
         },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/newsapp",
+            demo: "https://github.com/ZeenatFirdosh/newsapp",
+        },
     },
     {
         id: 4,
@@ -37,6 +49,10 @@ const projectsData = [
         tags: ["react"],
         media: {
             thumbnail: require("../../images/portfolio/tic-tac-toe.png"),
+        },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/Tic-Tac-Toe",
+            demo: "https://tic-tac-toe-main.netlify.app/",
         },
     },
     // {

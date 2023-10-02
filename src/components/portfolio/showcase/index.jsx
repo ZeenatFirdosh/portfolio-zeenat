@@ -19,13 +19,16 @@ const Showcase = ({ data, transition }) => {
                     key={project.id}
                 >
                     <div className="meta-content">
+                    <a href={project.link.demo} target="_blank" rel="noopener noreferfrer">
+
                         <h3>{project.name}</h3>
                         <div className="go-to-cta">
                             <span className="text">Project Details</span>
                             <Arrow />
                         </div>
+                        </a>
                     </div>
-                    <img src={project.media.thumbnail} />
+                    <img src={project.media.thumbnail} href={project.link.live} />                    
                 </div>
             ))}
         </div>

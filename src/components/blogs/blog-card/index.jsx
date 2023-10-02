@@ -4,7 +4,7 @@ import Arrow from "../../shared/arrow";
 
 import "./style.scss";
 
-const BlogCard = ({ user, date, image, title, description }) => {
+const BlogCard = ({ user, date, image, title, description, tech }) => {
     return (
         <div className="blog-card">
             <div className="image-section">
@@ -15,11 +15,12 @@ const BlogCard = ({ user, date, image, title, description }) => {
             </div>
             <div className="content-section">
                 <div className="info-bar">
-                    <div className="user-name">By {user}</div>
+                    <div className="user-name">{user}</div>
                     <div className="posted-date">{date}</div>
                 </div>
                 <h3>{title}</h3>
-                <p>{description}</p>
+                <h4>{description}</h4>
+                <p>{tech}</p>
                 <div className="readmore-cta">
                     <span className="text">Read More</span>
                     <Arrow />

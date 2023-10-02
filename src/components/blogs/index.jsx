@@ -2,40 +2,45 @@ import React from "react";
 
 import Section from "../shared/section";
 import BlogCard from "./blog-card";
-import Blog1 from "../../images/blogs/blog-thumb-1.jpg";
-import Blog2 from "../../images/blogs/blog-thumb-2.jpg";
-import Blog3 from "../../images/blogs/blog-thumb-3.jpg";
+import pw from "../../images/blogs/pw.jpg";
+import pentagon from "../../images/blogs/pentagon3.jpg";
+import ibm from "../../images/blogs/inm.svg";
 
 import "./style.scss";
 
 const Blogs = () => {
     return (
         <Section
-            id="blogs"
-            title="Blogs & Articles"
+            id="training"
+            title="Training and Certificate"
             background="dark"
         >
             <div className="blogs-content-wrapper">
                 <BlogCard
-                    user="John Doe"
-                    date="Mar 8 2022"
-                    image={Blog1}
-                    title="Quis Autem Vea Eum Iure Reprehendrit"
-                    description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    user="Jan 2023 "
+                    date="Sept 2023"
+                    image={pw}
+                    title="PW Skills | Boot Camp Training"
+                    description="Full Stach Web Development"
+                    tech="•	Tech Stack- JAVA, HTML, CSS, Javascript, React, Nodejs, Express, MongoDb "
                 />
                 <BlogCard
-                    user="John Doe"
-                    date="Mar 8 2022"
-                    image={Blog2}
-                    title="Quis Autem Vea Eum Iure Reprehendrit"
-                    description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    user="Jan 2023 "
+                    date="June 2023"
+                    image={pentagon}
+                    title="Pentagon"
+                    description="Full Stach Web Development."
+                    tech="•	Tech Stack- JAVA, HTML, CSS, Javascript, React, MySQL, DBMS, OOPS "
+
                 />
                 <BlogCard
-                    user="John Doe"
-                    date="Mar 8 2022"
-                    image={Blog3}
-                    title="Quis Autem Vea Eum Iure Reprehendrit"
-                    description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    user="June 2022"
+                    date="July 2022"
+                    image={ibm}
+                    title="IBM | Innovation Camp"
+                    description="Project: Potato Disease Classiﬁcation using Deep Learning."
+                    tech="•	Tech. Stack: Python, Machine Learning, Deep Learning , Tensorﬂow, Matplotlib, Numpy"
+
                 />
             </div>
         </Section>

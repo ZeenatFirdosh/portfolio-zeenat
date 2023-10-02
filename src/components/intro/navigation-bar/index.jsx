@@ -47,19 +47,19 @@ const Navigation = () => {
                     className="navigation-item"
                     onClick={() => menuItemClickHandler("skills")}
                 >
-                    Skills
+                    About
                 </span>
                 <span
                     className="navigation-item"
                     onClick={() => menuItemClickHandler("portfolio")}
                 >
-                    Portfolio
+                    Skills
                 </span>
                 <span
                     className="navigation-item"
-                    onClick={() => menuItemClickHandler("blogs")}
+                    onClick={() => menuItemClickHandler("training")}
                 >
-                    Blogs & Articles
+                    Project
                 </span>
                 <CallToAction
                     text="Contact me"
