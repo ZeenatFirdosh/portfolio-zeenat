@@ -55,38 +55,54 @@ const projectsData = [
             demo: "https://tic-tac-toe-main.netlify.app/",
         },
     },
-    // {
-    //     id: 5,
-    //     name: "Limitless",
-    //     tags: ["web-app", "web-page"],
-    //     media: {
-    //         thumbnail: require("../../images/portfolio/thumb-6.jpg"),
-    //     },
-    // },
-    // {
-    //     id: 6,
-    //     name: "Dashboard",
-    //     tags: ["product", "web-app", "mobile-app"],
-    //     media: {
-    //         thumbnail: require("../../images/portfolio/thumb-4.jpg"),
-    //     },
-    // },
-    // {
-    //     id: 7,
-    //     name: "Digital Creative Agency",
-    //     tags: ["web-app"],
-    //     media: {
-    //         thumbnail: require("../../images/portfolio/thumb-3.jpg"),
-    //     },
-    // },
-    // {
-    //     id: 8,
-    //     name: "Virtual Reality Experience",
-    //     tags: ["web-app", "mobile-app", "web-page"],
-    //     media: {
-    //         thumbnail: require("../../images/portfolio/thumb-5.jpg"),
-    //     },
-    // },
+    {
+        id: 5,
+        name: "Movie Search App",
+        tags: ["javascript"],
+        media: {
+            thumbnail: require("../../images/portfolio/movie.png"),
+        },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/moviesearchapp",
+            demo: "https://moviesearchapp-two.vercel.app/",
+        },
+    },
+    {
+        id: 6,
+        name: "Note App",
+        tags: ["javascript"],
+        media: {
+            thumbnail: require("../../images/portfolio/note.png"),
+        },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/note-app",
+            demo: "https://notes-javascript-app.netlify.app/",
+        },
+    },
+    {
+        id: 7,
+        name: "Nike",
+        tags: ["react"],
+        media: {
+            thumbnail: require("../../images/portfolio/nike.png"),
+        },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/Nike",
+            demo: "https://nike-steel-nine.vercel.app/",
+        },
+    },
+    {
+        id: 8,
+        name: "Wheather App",
+        tags: ["javascript"],
+        media: {
+            thumbnail: require("../../images/portfolio/wheather.jpeg"),
+        },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/wheather-app",
+            demo: "https://wheather-app-javascript.netlify.app/",
+        },
+    },
 ];
 
 const Portfolio = () => {
