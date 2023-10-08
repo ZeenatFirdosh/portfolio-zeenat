@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className="footer-logo">
                     <img
                         src={Logo}
-                        alt="JS Dev Hindi"
+                        alt="logo"
                     />
                 </div>
                 <ul className="footer-menu-items">
@@ -32,7 +32,7 @@ const Footer = () => {
                         className="footer-menu-item"
                         onClick={() => scrollToSection("skills")}
                     >
-                        Skills
+                        About
                     </li>
                     <li
                         className="footer-menu-item"
@@ -44,7 +44,7 @@ const Footer = () => {
                         className="footer-menu-item"
                         onClick={() => scrollToSection("blogs")}
                     >
-                        Blogs & Articles
+                        Training & Certificates
                     </li>
                     <li
                         className="footer-menu-item"
