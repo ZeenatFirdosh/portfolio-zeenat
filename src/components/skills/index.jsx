@@ -4,7 +4,6 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 import CallToAction from "../shared/CallToAction";
 import TechIcons from "../../images/tech-icons.png";
 import Section from "../shared/section";
-import Resume from "../../download/Zeenat's Resume.pdf";
 import { scrollToSection } from "../utils/helpers";
 
 import "./style.scss";
