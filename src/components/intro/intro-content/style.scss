@@ -45,6 +45,7 @@
                         @include typography(42px, 400, 48px);
                     }
                     .text {
+                        @include typography(14px, 400, 20px);
                     }
                     .icon {
                         margin-left: 10px;
