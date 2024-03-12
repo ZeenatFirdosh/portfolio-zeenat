@@ -7,7 +7,7 @@ import { init } from "ityped";
 import { useEffect, useRef } from "react";
 import girl from "../../../images/zeenat.png";
 import hand from "../../../images/hand.png";
-import Resume from "../../../download/Zeenat Resume.pdf";
+import Resume from "../../../download/Zeenat Firdosh Quadri.pdf";
 
 import CallToAction from "../../shared/CallToAction";
 import { scrollToSection } from "../../utils/helpers";
