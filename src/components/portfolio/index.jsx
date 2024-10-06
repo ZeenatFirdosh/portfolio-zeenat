@@ -9,6 +9,42 @@ import "./style.scss";
 const projectsData = [
     {
         id: 1,
+        name: "Food Delivery App",
+        tags: ["next"],
+        media: {
+            thumbnail: require("../../images/portfolio/food.png"),
+        },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/food-ordering-NEXT",
+            demo: "https://food-ordering-next.vercel.app/",
+        },
+    },
+    {
+        id: 2,
+        name: "Ecommerce Clothes Store",
+        tags: ["next"],
+        media: {
+            thumbnail: require("../../images/portfolio/store.png"),
+        },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/Ecommerce-Next-cloth-Store",
+            demo: "https://ecommerce-next-store.vercel.app/",
+        },
+    },
+    {
+        id: 3,
+        name: "Dashboard (Clothes Store)",
+        tags: ["next"],
+        media: {
+            thumbnail: require("../../images/portfolio/admin.png"),
+        },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/clothstore-Next-admin",
+            demo: "https://ecommerce-next-admin.vercel.app/",
+        },
+    },
+    {
+        id: 4,
         name: "Ecommerce website",
         tags: ["next"],
         media: {
@@ -20,7 +56,19 @@ const projectsData = [
         },
     },
     {
-        id: 2,
+        id: 5,
+        name: "Home Rental Application",
+        tags: ["react"],
+        media: {
+            thumbnail: require("../../images/portfolio/dream.png"),
+        },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/Dream-House-Frontend",
+            demo: "https://my-dreamhouse.netlify.app/",
+        },
+    },
+    {
+        id: 6,
         name: "YouTube Clone website",
         tags: ["react"],
         media: {
@@ -32,7 +80,7 @@ const projectsData = [
         },
     },
     {
-        id: 3,
+        id: 7,
         name: "NewsApp: News Landing Page",
         tags: ["react"],
         media: {
@@ -44,7 +92,7 @@ const projectsData = [
         },
     },
     {
-        id: 4,
+        id: 8,
         name: "Tic Tac Toe",
         tags: ["react"],
         media: {
@@ -56,7 +104,7 @@ const projectsData = [
         },
     },
     {
-        id: 5,
+        id: 9,
         name: "Movie Search App",
         tags: ["javascript"],
         media: {
@@ -68,7 +116,7 @@ const projectsData = [
         },
     },
     {
-        id: 6,
+        id: 10,
         name: "Note App",
         tags: ["javascript"],
         media: {
@@ -80,7 +128,7 @@ const projectsData = [
         },
     },
     {
-        id: 7,
+        id: 11,
         name: "Nike",
         tags: ["react"],
         media: {
@@ -92,7 +140,7 @@ const projectsData = [
         },
     },
     {
-        id: 8,
+        id: 12,
         name: "Wheather App",
         tags: ["javascript"],
         media: {
