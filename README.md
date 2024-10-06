@@ -5,4 +5,4 @@
 * Utilized internal navigation, conditional rendering and media queries for UI/UX.
 * Showcased my skills and work through project galleries and detailed Live Demos.
 
-## Tech Stack:React.js.
+## Tech Stack: React.js.
