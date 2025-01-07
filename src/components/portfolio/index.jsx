@@ -7,40 +7,52 @@ import Showcase from "./showcase";
 import "./style.scss";
 
 const projectsData = [
-    {
-        id: 1,
-        name: "Food Delivery App",
-        tags: ["next"],
-        media: {
-            thumbnail: require("../../images/portfolio/food.png"),
-        },
-        link :{
-            github: "https://github.com/ZeenatFirdosh/food-ordering-NEXT",
-            demo: "https://food-ordering-next.vercel.app/",
-        },
-    },
-    {
-        id: 2,
-        name: "Ecommerce Clothes Store",
-        tags: ["next"],
-        media: {
-            thumbnail: require("../../images/portfolio/store.png"),
-        },
-        link :{
-            github: "https://github.com/ZeenatFirdosh/Ecommerce-Next-cloth-Store",
-            demo: "https://ecommerce-next-store.vercel.app/",
-        },
-    },
+    // {
+    //     id: 1,
+    //     name: "Food Delivery App",
+    //     tags: ["next"],
+    //     media: {
+    //         thumbnail: require("../../images/portfolio/food.png"),
+    //     },
+    //     link :{
+    //         github: "https://github.com/ZeenatFirdosh/food-ordering-NEXT",
+    //         demo: "https://food-ordering-next.vercel.app/",
+    //     },
+    // },
+    // {
+    //     id: 2,
+    //     name: "Ecommerce Clothes Store",
+    //     tags: ["next"],
+    //     media: {
+    //         thumbnail: require("../../images/portfolio/store.png"),
+    //     },
+    //     link :{
+    //         github: "https://github.com/ZeenatFirdosh/Ecommerce-Next-cloth-Store",
+    //         demo: "https://ecommerce-next-store.vercel.app/",
+    //     },
+    // },
+    // {
+    //     id: 3,
+    //     name: "Dashboard (Clothes Store)",
+    //     tags: ["next"],
+    //     media: {
+    //         thumbnail: require("../../images/portfolio/admin.png"),
+    //     },
+    //     link :{
+    //         github: "https://github.com/ZeenatFirdosh/clothstore-Next-admin",
+    //         demo: "https://ecommerce-next-admin.vercel.app/",
+    //     },
+    // },
     {
         id: 3,
-        name: "Dashboard (Clothes Store)",
-        tags: ["next"],
+        name: "MERN FullStack Ecommerce",
+        tags: ["react"],
         media: {
-            thumbnail: require("../../images/portfolio/admin.png"),
+            thumbnail: require("../../images/portfolio/shop.png"),
         },
         link :{
-            github: "https://github.com/ZeenatFirdosh/clothstore-Next-admin",
-            demo: "https://ecommerce-next-admin.vercel.app/",
+            github: "https://github.com/ZeenatFirdosh/Full-Stack-E-Commerce-MERN-APP",
+            demo: "https://full-stack-e-commerce-mern-app-omega.vercel.app/",
         },
     },
     {
