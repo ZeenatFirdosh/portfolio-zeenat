@@ -2,10 +2,9 @@ import React from "react";
 
 import Section from "../shared/section";
 import BlogCard from "./blog-card";
-import pw from "../../images/blogs/pw.jpg";
-import pentagon from "../../images/blogs/pentagon3.jpg";
+import plaxonic from "../../images/blogs/plaxonic.png";
+import monotype from "../../images/blogs/Monotpye.jpg";
 import ibm from "../../images/blogs/inm.svg";
-
 import "./style.scss";
 
 const Blogs = () => {
@@ -17,21 +16,20 @@ const Blogs = () => {
         >
             <div className="blogs-content-wrapper">
                 <BlogCard
-                    user="Jan 2023 "
-                    date="Sept 2023"
-                    image={pw}
-                    title="PW Skills | Boot Camp Training"
-                    description="Full Stach Web Development"
-                    tech="•	Tech Stack- JAVA, HTML, CSS, Javascript, React, Nodejs, Express, MongoDb "
+                    user="May 2024"
+                    date="May 2025"
+                    image={monotype}
+                    title="Monotype."
+                    description="Software Developer Trainee"
+                    tech="•	Tech Stack- REST API, AWS, Redis, ElasticSearch, Gravitee, Swagger"
                 />
                 <BlogCard
-                    user="Jan 2023 "
-                    date="June 2023"
-                    image={pentagon}
-                    title="Pentagon"
-                    description="Full Stach Web Development."
-                    tech="•	Tech Stack- JAVA, HTML, CSS, Javascript, React, MySQL, DBMS, OOPS "
-
+                    user="Dec 2023"
+                    date="Feb 2024"
+                    image={plaxonic}
+                    title="Plaxonic Technologies"
+                    description="FullStack Developer Intern"
+                    tech="•	Tech Stack- HTML, CSS, Javascript, React, Nodejs, Express, Redux"
                 />
                 <BlogCard
                     user="June 2022"

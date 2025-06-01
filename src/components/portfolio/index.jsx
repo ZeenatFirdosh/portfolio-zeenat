@@ -163,6 +163,19 @@ const projectsData = [
             demo: "https://wheather-app-javascript.netlify.app/",
         },
     },
+    {
+        id: 13,
+        name: "Social Media",
+        tags: ["next"],
+        media: {
+            thumbnail: require("../../images/portfolio/social media.png"),
+        },
+        link :{
+            github: "https://github.com/ZeenatFirdosh/Social-media-app-next",
+            demo: "https://social-media-app-next-nine.vercel.app/",
+        },
+    },
+
 ];
 
 const Portfolio = () => {

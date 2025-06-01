@@ -5,9 +5,9 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-import girl from "../../../images/zeenat.png";
+import girl from "../../../images/pic2.png";
 import hand from "../../../images/hand.png";
-import Resume from "../../../download/MyResume.pdf";
+import Resume from "../../../download/Zeenat_Firdosh_Quadri_Resume.pdf";
 
 import CallToAction from "../../shared/CallToAction";
 import { scrollToSection } from "../../utils/helpers";
@@ -66,6 +66,7 @@ const IntroContent = () => {
                     <img
                         src={girl}
                         alt="Hello I am Zeenat Firdosh Quadri"
+
                     />
 
                     <div className="highlights horizontal">
